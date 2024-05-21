@@ -1,0 +1,13 @@
+	@font-face{font-family:漢儀新蒂永樂大典; src:url("HanyiSentyYongleEncyclopedia-2020.ttf")}
+	.font1{font-family:漢儀新蒂永樂大典}
+h1 {font-size:30px; text-align:center; color: #474546;}
+h2 {font-size:30px; text-align:center; color: #474546; font-family:'漢儀新蒂永樂大典'}
+h3 {font-size:24px; text-align:left; color: #474546; padding-left:10px}
+ul{font-size:18px} 
+ol{font-size:18px}
+p{font-size:18px; text-indent:30px; text-align:justify; font-family:'標楷體'; padding-left:17px; padding-right:17px}
+h4{font-size:18px; line-height:20px; text-align:right; font-family:'漢儀新蒂永樂大典'}
+a:link{color:#A98568; text-decoration:none}
+a:hover{background-color:white; text-decoration:underline}
+a:active{color:#B97687; text-decoration:none}
+a:visited{color:#B97687; text-decoration:none}
