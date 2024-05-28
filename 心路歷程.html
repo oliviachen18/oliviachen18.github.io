@@ -1,6 +1,8 @@
 <style>
-	div{width:97%; border:5px solid #A98568; padding:10px}
-		@font-face{font-family:漢儀新蒂永樂大典; src:url("HanyiSentyYongleEncyclopedia-2020.ttf")}
+	 .main{background: #F2EEE5;width:97%; border:5px solid #A98568; padding:10px}
+	.block{ height:100px}
+		@font-face{font-family:漢儀新蒂永樂大典
+			   ;src:url("HanyiSentyYongleEncyclopedia-2020.ttf")}
 		.font1{font-family:漢儀新蒂永樂大典}
 	h2 {font-size:30px; text-align:center; color: #474546; font-family:'漢儀新蒂永樂大典'}
 	h3 {font-size:24px; text-align:left; color: #474546; font-family:'漢儀新蒂永樂大典'; padding-left:10px}
@@ -11,17 +13,35 @@
 	a:hover{background-color:white; text-decoration:underline}
 	a:active{color:#B97687; text-decoration:none}
 	a:visited{color:#B97687; text-decoration:none}
+	.running2{
+		position: absolute;
+		left:0;	opacity:0;
+		top:200px;
+		animation: a 10s ease-in-out 0s infinite normal none running;
+		height:100px; width:177.78px;border:0}
+
+		@keyframes a{
+   			 0% {top:230px; left: 10%; opacity:0.6;}
+   			 50% {top:230px;left: 43%; opacity:1;}
+   			 100% {top:230px; left: 75%; opacity:0.6;}
+}
 </style>
 
 <body style="font-family:標楷體">
-<div>
-<h2 id="top"><strong>網頁製作の心路歷程</strong></h2>
+<div class="main">
+<h2 class="top"><strong>網頁製作の心路歷程</strong></h2>
 <h4>要來碎碎念一些自己的辛酸血淚史了ＱＱ</h4>
 
 <p>
 先謝謝老師這段時間以來花許多時間，幫我解惑了許多網頁製作上的問題！</p>
 <p>這裡會分成三個部分：一開始對網頁的<strong>發想規劃</strong>、製作過程遇到的<strong>困難與解方</strong>、<strong>總體心得</strong>～
 </p>
+
+<div class="block">
+		<img class="running2"  alt="子瑜有夠美..." src=images/子瑜.jpg>
+</div>
+
+<p>（先在這裡偷偷放個子瑜ㄎㄎ（老師要記得幫我加分哦（沒XDD</p>
 
 <h2 id="one">一、發想與規劃</h2>
 
@@ -153,13 +173,20 @@
 
 <h3><strong>８．大功告成...的前一步：架設www網站</strong></h3>
 
+<p>最後，全部都完成以後，就是要來把自己的東西丟上網站啦～
+<p>一開始我先自己上網查了一下，結果查到的都是什麼要自己花錢申請網域，看完一整個還是霧煞煞qq
+<p>後來某天，一樣有修這門課的朋友－－周艾立，突然告訴我說，她找到方法了！是用一個git hub的網站，它有免費提供網域給註冊會員使用，可以上傳包含html、css、javascript的靜態網頁檔案，所以我們就看了這些教學，把自己的網頁弄進了git hub的網域中。(有夠困難)
+<p>結果我們發現JQUERY消失了...詢問老師後才得知...原來我們的架設網站是要用<strong>ip位址</strong>...前功盡棄...&#128546
+<p>總之後來老師在下禮拜的課程就教了如何架設網站，得到自己的ip位址(比git hub簡單好多，可惡&#128514)，就終於大功告成，愉快地架設好了自己的網站啦～
+</p>
 
 <h2 id="three">三、總心得</h2>
 
 <p>
 算一算，自己做這個網頁前前後後大概花了1.5月吧，大概快半個學期的時間，雖然系上大三真的好忙好多考試，但只要一想到有靈感，就會趕快來做，也常常在週二的下課找老師問許多相關的問題，最終終於順利產出了～
 <p>在這個過程中，其實自己也蠻享受的。有時候讀書讀累了來做這個網頁，就會覺得放鬆好多，而且看著自己逐步建構起這樣的網頁，成就感真的滿滿！就連現在打這個總心得的時候都覺得蠻感慨的，自己當初選這門課還是個程式小白，沒想到最後還能做出這樣的成果。
-<p>雖然還沒有給老師看過，但現在看起來，我自己覺得十分滿意也很喜歡，一有機會就會拿去給別人看XDD只能說真的好感動...</p>
+<p>雖然還沒有給老師看過，但現在看起來，我自己覺得十分滿意也很喜歡，一有機會就會拿去給別人看XDD只能說真的好感動...
+<p>這裡想先謝謝艾立跟怡秀，在做這個期中作業的期間，我們常常一起討論、解決彼此的問題，可以跟她們一起修這門課真的很幸運。</p>
 
 
 <h3>
